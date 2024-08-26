@@ -85,3 +85,5 @@
 {"level":"info","message":"onRequest - WORKSPACE_URI:file:///c%3A/Users/publico/Desktop/log/tomyjerry/2024s2-tomyjerry-titoCo12","timestamp":"2024-08-26T22:08:52.705Z"}
 {"level":"info","message":"⌛ Building environment","timeElapsed":197,"timestamp":"2024-08-26T22:08:54.412Z"}
 {"level":"info","message":"⌛ Validating testT.wtest","timeElapsed":610,"timestamp":"2024-08-26T22:08:55.097Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":312,"timestamp":"2024-08-26T22:12:56.476Z"}
+{"level":"info","message":"⌛ Validating tomyjerry.wlk","timeElapsed":503,"timestamp":"2024-08-26T22:12:56.993Z"}
