@@ -6,6 +6,7 @@ object tom {
 		energia = energia + 12 + raton.peso()
 	}
 	
+	
 	method correr(distancia){
 		energia = energia - (distancia/2)
 	}
