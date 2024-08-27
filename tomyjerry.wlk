@@ -1,6 +1,19 @@
 object tom {
 	
-	 var energia = 50
+	var energia = 50
+
+	method puedeComer(distancia) {
+		return (energia - distancia/2 >= 0)
+	}
+
+	method energiaQueAportaria(raton) {
+		return 12 + raton.peso()
+	}
+
+	method quiereComer(raton, distancia) {
+		return (self.puedeComer(distancia)) and 
+			   (self.energiaQueAportaria(raton) > (distancia/2))
+	}
 
 	method comer(raton) {
 		energia = energia + 12 + raton.peso()
@@ -13,7 +26,7 @@ object tom {
 	method velocidadMaxima()  {
 		return 5 + energia / 10 
 	}
-	
+
 }
 
 object jerry {

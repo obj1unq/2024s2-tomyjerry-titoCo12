@@ -17,4 +17,13 @@ describe "Tom y Jerry" {
         assert.equals(24, tom.velocidadMaxima())
     }
 
+    method initialize() {
+        
+    }
+
+    test "tom quiere y puede comer a jerry y nibbles" {
+        
+    }
+
+
 }
